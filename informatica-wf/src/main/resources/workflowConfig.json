@@ -1,0 +1,33 @@
+{
+	"workflowName": "wf_test",
+	"packageName": "com.purbarun.wf.session",
+	"savepoint": [
+		{
+			"schemaNames": "Import",
+			"tableNames": [
+				"",
+				""
+			]
+		}
+	],
+	"session": [
+		{
+			"sequenceNumber": 1,
+			"sessionClass": [
+				"PreProcess"
+			]
+		},
+		{
+			"sequenceNumber": 2,
+			"sessionClass": [
+				"Mapping"
+			]
+		},
+		{
+			"sequenceNumber": 3,
+			"sessionClass": [
+				"PostProcess"
+			]
+		}
+	]
+}
